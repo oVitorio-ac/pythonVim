@@ -1,3 +1,7 @@
+Aqui está a versão atualizada do README, incluindo as instruções sobre o uso do ambiente virtual (venv) e a instalação com **pipenv**:
+
+---
+
 <p align="center">
   <a href="#-about-the-project">About</a> •
   <a href="#-features">Features</a> •
@@ -5,45 +9,102 @@
   <a href="#-how-to-run-the-project">How to Run</a> • 
   <a href="#-technologies">Technologies</a> • 
   <a href="#-how-to-contribute-to-the-project">Contribute</a> • 
-  <a href="#user-content--license">License</a> • 
+  <a href="#-license">License</a> • 
   <a href="#-contributors">Contributors</a>
 </p>
 
 ## 💻 About the project
 
----
+**pythonVim** is a simple code editor and a custom programming language built with Python. The project is designed to be beginner-friendly, focusing on simplicity and ease of use. The editor enables users to write, test, and run code in the custom language directly in an online environment, using **OnlineGDB** as the primary platform.
 
-Este projeto foi desenvolvido utilizando a plataforma **Replit**, uma ferramenta online que permite criar, editar e executar código diretamente no navegador. O objetivo é criar um **editor de código simples** e uma **linguagem de programação personalizada**, ambos desenvolvidos em Python. O editor permite aos usuários escrever, testar e executar código na nova linguagem, com foco em simplicidade e facilidade de uso, ideal para iniciantes na programação.
+---
 
 ## ⚙️ Features
 
----
+- **Simple Code Editor**: A minimalist interface for writing and testing code.
+- **Custom Language**: A lightweight programming language designed for ease of understanding.
+- **Code Execution**: Run your code directly in the editor and view the results instantly.
+- **Intuitive Interface**: A clean and distraction-free design, ideal for beginners learning to code.
 
-- **Editor de Código Simples**: Interface minimalista para escrever e testar código.
-- **Nova Linguagem**: Uma linguagem de programação simples e fácil de aprender.
-- **Execução de Código**: Execute o código diretamente dentro do editor e veja os resultados imediatamente.
-- **Interface Intuitiva**: Design simples e direto, sem distrações, para que o usuário possa se concentrar no aprendizado e execução do código.
+---
 
 ## 🎨 Layout
 
----
+The editor's layout is straightforward and functional, comprising the following:
 
-O layout do editor foi projetado para ser simples e funcional, composto por:
+- **Code Editing Area**: A space to write code.
+- **Output Area**: Displays the execution results, including outputs and error messages.
 
-- **Área de Edição de Código**: Onde o usuário pode escrever seu código.
-- **Botões de Ação**: Como "Executar", para rodar o código, e "Limpar", para apagar o conteúdo da área de edição.
-- **Área de Saída**: Onde os resultados da execução do código serão mostrados, incluindo erros e saídas geradas.
-
-A interface é direta e sem distrações, permitindo que o usuário se concentre no código e nos resultados.
-
-## 🚀 How to run the project
+The interface is designed to help users focus on coding and immediate feedback.
 
 ---
 
-1. **Clone o repositório**:
+## 🚀 How to Run the Project
 
-   Para rodar o projeto localmente, primeiro clone o repositório:
+1. **Clone the repository**:  
+
+   To run the project locally, clone the repository:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/oVitorio-ac/pythonVim.git
+   cd pythonVim
+   ```
+
+2. **Set up a virtual environment**:  
+
+   Create and activate a virtual environment using `pipenv` to manage dependencies:
+
+   ```bash
+   # Install pipenv if not already installed
+    python -m venv .venv
+    .\.venv\Scripts\activate
+    pip install --upgrade pip
+    pip install pipenv
+    # Create and activate the virtual environment
+    pipenv install
+   ```
+
+3. **Run the Python script**:  
+
+   Execute the Python script to start using the editor:
+
+   ```bash
+   python main.py
+   ```
+
+4. **Optional: Use OnlineGDB**:  
+
+   If you'd prefer an online solution, you can upload the script to [OnlineGDB](https://www.onlinegdb.com/_www_7lvb?classId=ca4e133a-0236-4601-b403-6bd1ba97a369&assignmentId=d435f079-f0ae-4d22-9a64-ca87f42cf98e&submissionId=10b584aa-071e-b61c-c94a-238688755fa3) and run it there.
+
+---
+
+## 🛠 Technologies
+
+- **Python**: Used to develop the code editor and the custom programming language.
+- **pipenv**: For managing project dependencies and creating a virtual environment.
+- **OnlineGDB**: Online IDE for running and testing the project.
+
+---
+
+## 🤝 How to Contribute to the Project
+
+1. Fork the repository.  
+2. Create a branch for your feature: `git checkout -b feature/your-feature-name`.  
+3. Commit your changes: `git commit -m "Add some feature"`.  
+4. Push to the branch: `git push origin feature/your-feature-name`.  
+5. Open a Pull Request.
+
+All contributions are welcome! Please feel free to suggest improvements, new features, or report issues.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👥 Contributors
+
+- [oVitorio-ac](https://github.com/oVitorio-ac)  
+
