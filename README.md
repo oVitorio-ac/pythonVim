@@ -13,7 +13,7 @@
 
 ## 💻 About the project
 
-**pythonVim** is a lightweight code editor paired with a custom programming language. This project was developed as part of the Data Structures course at Fatec Americana – Professor Ralph Biasi. Our objective was to design an editor and implement a basic programming language using Python, leveraging parser and lexer techniques.
+**pythonVim** is a lightweight code editor paired with a custom programming language. This project was developed as part of the Data Structures course at Fatec Americana Ministro Ralph Biasi. Our objective was to design an editor and implement a basic programming language using Python, leveraging parser and lexer techniques.
 
 ---
 
